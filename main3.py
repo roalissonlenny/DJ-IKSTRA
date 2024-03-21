@@ -25,14 +25,12 @@ grafoTest.addArista('E', 'D', 8)
 
 origen = 'A'
 destino = 'E'
-__path__[origen] = {'-':0}
+path[origen] = {'-':0}
 llaves = grafoTest.aristas['A'].keys()
 print(llaves)
 for i in llaves:
-    __path__[i]={origen: grafoTest.aristas}
+    path[i]={origen: grafoTest.aristas}
    
 print(grafoTest.aristas[origen])
-
-print(hola)
 
 
